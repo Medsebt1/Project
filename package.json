@@ -1,0 +1,27 @@
+{
+  "name": "chap-15-autho-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "go": "concurrently \"npm start\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.0.1",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "modal": "^1.2.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "react_modal": "^1.0.5",
+    "react-icons": "^4.8.0"
+  }
+}

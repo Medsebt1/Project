@@ -1,0 +1,4 @@
+{
+  "db": "mongodb+srv://my_cluster:1234@cluster.g9vt1dr.mongodb.net/backauth?retryWrites=true&w=majority",
+  "secret": "shhhh"
+}
